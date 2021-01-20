@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "1WMHH816AF0435",
         "name": "com.JardinDelSol.OculusQuestDemo",
-        "processId": 3510,
+        "processId": 25131,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -132,6 +132,42 @@
             "deviceId": "1WMHH816AF0435",
             "name": "com.JardinDelSol.OculusQuestDemo",
             "processId": 3510,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH816AF0435",
+            "name": "com.JardinDelSol.OculusQuestDemo",
+            "processId": 10590,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH816AF0435",
+            "name": "com.JardinDelSol.OculusQuestDemo",
+            "processId": 13277,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH816AF0435",
+            "name": "com.JardinDelSol.OculusQuestDemo",
+            "processId": 16356,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH816AF0435",
+            "name": "com.JardinDelSol.OculusQuestDemo",
+            "processId": 22154,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH816AF0435",
+            "name": "com.JardinDelSol.OculusQuestDemo",
+            "processId": 23558,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH816AF0435",
+            "name": "com.JardinDelSol.OculusQuestDemo",
+            "processId": 25131,
             "exited": false
         }
     ],

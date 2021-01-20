@@ -9,8 +9,14 @@ public class ControllerManager : MonoBehaviour
 
     private CharacterController cc;
     // Start is called before the first frame update
+    [SerializeField]
     public float moveSpeed = 1.5f;
+    [SerializeField]
+    public float turnSpeed = 1.0f;
+
     private Vector2 pos;
+    private Vector2 turn;
+
     void Start()
     {
         cc = GetComponent<CharacterController>();
@@ -19,24 +25,6 @@ public class ControllerManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // if(OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger, Lctrl))
-        // {
-        //     Debug.Log("Left Index Trigger Pressed");
-        // }
-        // if(OVRInput.Get(OVRInput.Button.SecondaryIndexTrigger, Rctrl))
-        // {
-        //     Debug.Log("Right Index Trigger Pressed");
-        // }
-        // if(OVRInput.Get(OVRInput.Button.PrimaryHandTrigger, Lctrl))
-        // {
-        //     Debug.Log("Left Hand Trigger Pressed");
-        //     OVRInput.SetControllerVibration(1.0f, 1.0f, Lctrl);
-        // }
-        // if(OVRInput.Get(OVRInput.Button.SecondaryHandTrigger, Rctrl))
-        // {
-        //     Debug.Log("Right Hand Trigger Pressed");
-        //     OVRInput.SetControllerVibration(1.0f, 1.0f, Rctrl);
-        // }
         /*
         1. Combine method
             PrimaryIndexTrigger - left tirgger
@@ -63,7 +51,7 @@ public class ControllerManager : MonoBehaviour
         if (OVRInput.Get(OVRInput.Button.PrimaryHandTrigger, Lctrl))
         {
             Debug.Log("Left Hand Trigger");
-            OVRInput.SetControllerVibration(1.0f, 1.0f, Lctrl);
+            // OVRInput.SetControllerVibration(1.0f, 1.0f, Lctrl);
             // StartCoroutine(Haptic(0.3f));
         }
         if (OVRInput.Get(OVRInput.Button.PrimaryHandTrigger, Rctrl))
@@ -75,7 +63,7 @@ public class ControllerManager : MonoBehaviour
         
         if (OVRInput.GetDown(OVRInput.Button.SecondaryIndexTrigger))
         {
-            StartCoroutine(Haptic(0.3f));
+            // StartCoroutine(Haptic(0.3f));
         }
 
         if (OVRInput.Get(OVRInput.Touch.PrimaryThumbstick))
@@ -85,9 +73,7 @@ public class ControllerManager : MonoBehaviour
 
         }
 
-        Vector3 moveDir =  new Vector3(pos.x, transform.position.y, pos.y);
-        float speedRate = pos.magnitude; //magnitude of 2D vector
-        cc.SimpleMove(moveDir.normalized * speedRate * moveSpeed);
+        
 
         if (OVRInput.Get(OVRInput.Touch.SecondaryIndexTrigger))
         {
@@ -102,5 +88,17 @@ public class ControllerManager : MonoBehaviour
 
             OVRInput.SetControllerVibration(0,0,Rctrl);
         }
+
+        //Head Rotation
+        if(OVRInput.Get(OVRInput.Touch.SecondaryThumbstick))
+        {
+            turn = OVRInput.Get(OVRInput.Axis2D.SecondaryThumbstick);
+        }
+
+        Vector3 moveDir =  new Vector3(pos.x, transform.position.y, pos.y);
+        float speedRate = pos.magnitude; //magnitude of 2D vector
+        cc.SimpleMove(moveDir.normalized * speedRate * moveSpeed);
+        Vector3 rotation = new Vector3(-turn.y * turnSpeed, turn.x * turnSpeed, 0);
+        cc.transform.Rotate(rotation);
     }
 }
