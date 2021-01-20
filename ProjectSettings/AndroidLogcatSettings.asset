@@ -1,0 +1,191 @@
+{
+    "m_SelectedDeviceId": "1WMHH816AF0435",
+    "m_SelectedPackage": {
+        "deviceId": "1WMHH816AF0435",
+        "name": "com.JardinDelSol.OculusQuestDemo",
+        "processId": 3510,
+        "exited": false
+    },
+    "m_SelectedPriority": 0,
+    "m_KnownPackagesForSerialization": [
+        {
+            "deviceId": "1WMHH816AF0435",
+            "name": "com.oculus.vrshell",
+            "processId": 1823,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH816AF0435",
+            "name": "com.JardinDelSol.OculusQuestDemo",
+            "processId": 11455,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH816AF0435",
+            "name": "com.JardinDelSol.OculusQuestDemo",
+            "processId": 14762,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH816AF0435",
+            "name": "com.JardinDelSol.OculusQuestDemo",
+            "processId": 3896,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH816AF0435",
+            "name": "com.JardinDelSol.OculusQuestDemo",
+            "processId": 4859,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH816AF0435",
+            "name": "com.JardinDelSol.OculusQuestDemo",
+            "processId": 14389,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH816AF0435",
+            "name": "com.JardinDelSol.OculusQuestDemo",
+            "processId": 17963,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH816AF0435",
+            "name": "com.JardinDelSol.OculusQuestDemo",
+            "processId": 21692,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH816AF0435",
+            "name": "com.JardinDelSol.OculusQuestDemo",
+            "processId": 23803,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH816AF0435",
+            "name": "com.JardinDelSol.OculusQuestDemo",
+            "processId": 32466,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH816AF0435",
+            "name": "com.JardinDelSol.OculusQuestDemo",
+            "processId": 8886,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH816AF0435",
+            "name": "com.JardinDelSol.OculusQuestDemo",
+            "processId": 30571,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH816AF0435",
+            "name": "com.JardinDelSol.OculusQuestDemo",
+            "processId": 13522,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH816AF0435",
+            "name": "com.JardinDelSol.OculusQuestDemo",
+            "processId": 32760,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH816AF0435",
+            "name": "com.JardinDelSol.OculusQuestDemo",
+            "processId": 19268,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH816AF0435",
+            "name": "com.JardinDelSol.OculusQuestDemo",
+            "processId": 21535,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH816AF0435",
+            "name": "com.JardinDelSol.OculusQuestDemo",
+            "processId": 25180,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH816AF0435",
+            "name": "com.JardinDelSol.OculusQuestDemo",
+            "processId": 27915,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH816AF0435",
+            "name": "com.JardinDelSol.OculusQuestDemo",
+            "processId": 29493,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH816AF0435",
+            "name": "com.JardinDelSol.OculusQuestDemo",
+            "processId": 2193,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH816AF0435",
+            "name": "com.JardinDelSol.OculusQuestDemo",
+            "processId": 3510,
+            "exited": false
+        }
+    ],
+    "m_Tags": {
+        "m_Entries": [
+            {
+                "m_Name": "Filter by all listed tags",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "No Filter",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Tag Control...",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Unity",
+                "m_Selected": true
+            },
+            {
+                "m_Name": "CRASH",
+                "m_Selected": false
+            }
+        ]
+    },
+    "m_MemoryViewerState": {
+        "MemoryWindowHeight": 300.0,
+        "MemoryWindowWidth": 170.0,
+        "MemoryTypeEnabled": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
+        "MemoryGroup": 1,
+        "Behavior": 1
+    },
+    "m_Filter": "",
+    "m_FilterIsRegularExpression": false,
+    "m_SymbolPaths": []
+}
